@@ -1,6 +1,9 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+//import Menu from 'react-burger-navimenu';
+import Menu from './components/Menu/Menu'
+import 'bootstrap/dist/css/bootstrap.min.css'
 
 function App() {
   return (
@@ -18,6 +21,14 @@ function App() {
         >
           Learn React
         </a>
+        <Menu position='right' className='width-30'>
+            <Menu.Header>
+              
+            </Menu.Header>
+            <Menu.Body>
+                
+            </Menu.Body>
+        </Menu>
       </header>
     </div>
   );

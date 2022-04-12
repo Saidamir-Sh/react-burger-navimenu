@@ -1,0 +1,12 @@
+/* -/-/-/-/-  Open/Close functionality -/-/-/-/ */
+#menu {
+    height: 100vh;
+    transition: all ease-in-out .5s;
+    background-color: aliceblue;
+}
+#menu-active {
+    height: 100vh;
+    transform: translateX(0%);
+    transition: all ease-in-out .5s;
+    background-color: aliceblue;
+}
